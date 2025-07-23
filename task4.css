@@ -1,0 +1,10 @@
+.navbar {
+    background-color: #e87b07;
+    height: 30px;
+    padding: 20px;
+    text-align: center;
+}
+.navbar a{
+   padding: 200px;
+   text-align: center;
+}

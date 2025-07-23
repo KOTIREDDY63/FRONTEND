@@ -1,0 +1,56 @@
+.log{
+    width: 100%;
+    padding:200px
+}
+.navbar ul  {
+    padding: 30px;
+    display: flex;
+    gap: 30px;
+     list-style: none;
+     background-color: black;
+     color: white;
+     text-align: center;
+     font-size: larger;
+     font-weight: bold;
+
+}
+
+
+
+.navbar{
+    width: 100%;
+}
+
+#icon{
+  padding-left: 1200px;
+}
+.h1{
+    color: white;
+}
+.background-image {
+    background-image: url(https://preview.colorlib.com/theme/magazine/img/top-post1.jpg);
+     height:550px;
+     width: 990px;
+    background-size: cover;
+      position: relative; 
+
+}
+.background-image a {
+    position: absolute;
+    bottom: 130px; /* Slightly above the heading */
+    left: 30px;
+    background-color: rgb(186, 24, 51);
+    color: white;
+    padding: 6px 14px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 3px;
+}
+.background-image h1 {
+    position: absolute;
+    bottom: 80px;  /* Controls vertical position */
+    left: 30px;    /* Aligns it to the left */
+    color: white;
+    font-size: 32px;
+    margin: 0;}

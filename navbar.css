@@ -1,0 +1,55 @@
+#Navbar {
+    background-color: aquamarine;
+    width: 100%;
+    height: 60px;
+    overflow: hidden; /* clears the floated child divs */
+}
+
+/* Float logo to the left */
+#image {
+    float: left;
+    padding: 10px 20px;
+}
+
+#image img {
+    height: 40px;
+}
+
+/* Float menu to the left (next to logo) */
+#list {
+     float: left;
+    padding: 15px 20px;
+    margin-left: 50px;
+
+}
+
+#list ul {
+    list-style: none;
+    margin: 0;
+    padding: 12px 0px;
+}
+
+#list li {
+    display: inline;
+    margin: 0 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Float icons to the right */
+#icons {
+    float: right;
+    padding: 15px 20px;
+}
+
+#icons i {
+    margin-left: 15px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.black{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+

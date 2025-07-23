@@ -1,0 +1,28 @@
+.main-div{
+  width: 100%;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.block1 , .block2, .block3{
+    
+  float: left;
+  width: 30%;              
+  text-align: center;
+  
+  padding: 20px;
+  
+}
+.box3 {
+  margin-right: 0;
+}
+img{
+    width: 100%;
+}
+
+.block1 a , .block2 a, .block3 a{
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    
+}

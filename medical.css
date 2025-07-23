@@ -1,0 +1,37 @@
+.medical{
+    background-image: url(https://preview.colorlib.com/theme/docmed/img/banner/banner2.png);
+    background-size: cover;
+    padding: 20rem;
+}
+.medical a{
+    color: white;
+     padding: 1rem;
+    background-color: #40C8C1;
+    
+}
+.medical p{
+    padding-bottom: 1rem;
+}
+.second-background-image{
+    background-image: url(https://www.bing.com/th/id/OIP.nICmtL_zHUSrheJfqFULSQHaEK?w=309&h=211&c=8&rs=1&qlt=90&r=0&o=6&dpr=1.5&pid=3.1&rm=2);
+    background-repeat: no-repeat;
+    padding: 20rem;
+    background-size: cover;
+    border: 2px black ;
+    border-style:groove;
+}
+.second-background-image h1{
+    font-weight: bolder;
+}
+.second-background-image p{
+    font-weight: bold;
+    color: white;
+
+}
+.second-background-image a{
+    padding: 1rem;
+    background-color: aqua;
+    border: 2px black;
+    border-style: groove;
+   
+}

@@ -1,0 +1,170 @@
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#tasty-header {
+    background-image: url('../assets/images/bg_1.jpg.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+#logo {
+    font-size: 18px;
+    font-weight: bolder;
+    border: 1px solid white;
+    padding: 8px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+}
+#tasty-header > div {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 50px;
+}
+nav li {
+    list-style-type: none;
+}
+nav a {
+    text-decoration: none;
+}
+header {
+    text-align: center;
+    padding: 10rem 0px;
+}
+header h1 {
+    font-size: 3rem;
+    font-weight: normal;
+    width: 60%;
+    margin: auto;
+    line-height: 4rem;
+    margin-bottom: 30px;
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+header a {
+    font-size: 16px;
+    border: 1px solid white;
+    padding: 12px 16px;
+}
+#book-a-table-form {
+    background-color: rgb(255, 179, 3);
+    padding: 30px;
+    width: 55%;
+    margin: auto;
+}
+#book-a-table-form input, #book-a-table-form select {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    padding: 12px 16px;
+    margin-right: 26px;
+}
+#book-a-table-form input::placeholder {
+    color: black;
+}
+#book-a-table-form button {
+    padding: 12px 14px;
+    border: none;
+}
+#about-tasty {
+    display: flex;
+    justify-content: center;
+    column-gap: 70px;
+    padding: 0px 18rem;
+    align-items: center;
+}
+#about-tasty div {
+    flex: 0.5;
+}
+#about-tasty img {
+    width: 100%;
+}
+#about-tasty h6 {
+    color: rgb(204, 204, 204);
+    font-size: 14px;
+    font-weight: normal;
+}
+#about-tasty h1 {
+    font-weight: normal;
+    font-size: 35px;
+}
+#about-tasty p { 
+    line-height: 30px;
+    font-size: 18px;
+    text-align: justify;
+    color: #8b8b92;
+}
+#our-menu {
+    text-align: center;
+    margin: 100px 0px;
+}
+#our-menu ul {
+    display: flex;
+    list-style-type: none;
+    column-gap: 20px;
+    justify-content: center;
+}
+#our-menu li {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 12px 18px;
+    font-size: 20px;
+}
+#our-menu ul li:nth-child(1) {
+    background-color: rgb(255, 179, 3);
+}
+.menu-item img {
+    width: 80px;
+    height: 70px;
+}
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    column-gap: 80px;
+    align-items: center;
+    padding: 15px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#menu-list {
+    padding: 0px 10rem;
+}
+#menu-list {
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+    margin: 40px 0px;
+}
+.menu-item img {
+    border-radius: 50%;
+}
+#our-menu > p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+#our-menu a {
+    color: rgb(255, 179, 3);
+    border: 1px solid rgb(255, 179, 3);
+    padding: 14px 18px;
+    font-size: 18px;
+}
+#our-specialties {
+    background-image: url('https://preview.colorlib.com/theme/tasty/images/bg_3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px;
+    text-align: center;
+    color: white;
+}
+#our-specialties h1 {
+    font-size: 35px;
+}

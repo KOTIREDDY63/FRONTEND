@@ -1,0 +1,389 @@
+.container5 .block-2 button {
+    background-color: #E74208;
+    color: #fff;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* ===== Background Section ===== */
+.background-image {
+    background-image: url("../Yoga-app/images/hero-bg.png.webp");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+/* ===== Navbar ===== */
+.NavBar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 50px;
+}
+
+.NavBar .logo img {
+    width: 180px;
+    height: auto;
+}
+
+/* ===== Navbar Menu ===== */
+.NavBar .items ul {
+    display: flex;
+    align-items: center;
+    gap: 40px; 
+    margin: 0;
+    padding: 0;
+}
+
+.NavBar .items ul li {
+    list-style: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.NavBar .items ul li a {
+    font-size: 29px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.NavBar .items ul li a:hover {
+    color: #F7FFA0;
+}
+
+/* ===== Navbar Icons ===== */
+.NavBar .icons ul {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.NavBar .icons ul li a {
+    color: whitesmoke;
+    font-size: 32px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.NavBar .icons ul li a:hover {
+    color: #F7FFA0;
+}
+
+/* ===== Hero Section ===== */
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 220px 250px;
+}
+
+.container2 .block-1 {
+    width: 50%;
+}
+
+.container2 .block-1 img {
+    width: 200px;
+    height: auto;
+}
+
+.container2 .block-1 h1 {
+    font-size: 100px;
+    font-weight: 600;
+    color: white;
+    margin-top: 20px;
+}
+
+.container2 .block-1 p {
+    font-size: 30px;
+    color: white;
+    padding-top: 20px;
+    line-height: 1.6;
+}
+
+.container2 .block-1 button {
+    padding: 30px 50px;
+    background-color: #F7FFA0;
+    border: none;
+    border-radius: 8px;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+/* ===== Hero Image ===== */
+.image img {
+    width: 80%;
+    position: absolute;
+    right: 50px;
+    bottom: 0
+}
+
+.container-3{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    gap: 120px;
+    text-align: center;
+    margin-top: 60px
+    ;
+
+}
+.container-3 .icon1,
+.container-3 .icon2,
+.container-3 .icon3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: #F7FFA0;
+    color: #493365;
+    font-size: 6rem;
+    margin: 0 auto 20px auto;
+    transition: background-color 0.1s ease;
+}
+
+.container-3 .icon1:hover,
+.container-3 .icon2:hover,
+.container-3 .icon3:hover {
+    background-color: #E7AFDF;
+}
+
+.container-3 i:hover {
+    background-color: #E7AFDF;
+    transition: 0.3s ease;
+}
+
+.container-3 h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #493365;
+}
+.container4 {
+    background-image: url("../Yoga-app/images/second bg.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* so content is vertically centered */
+    padding: 50px;
+    gap: 50px; /* space between text and image */
+}
+.medication h1 {
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+}
+.medication h4 {
+    color: white;
+    font-size: 18px;
+}
+.meditation p {
+    color: white;
+    font-size: 26px;
+    line-height: 1.6;
+}
+.medication button{
+    padding: 15px 30px;
+    background-color: #F7FFA0;
+    border: none;
+    border-radius: 8px;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.container4 img {
+    width: 1500px;
+    height: auto;
+
+
+}
+
+.container5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 60px 100px;
+    gap: 50px;
+      box-shadow:  0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container5 .block-1 {
+    background-color: #F7FFA0;
+    padding: 40px 60px;
+    width: 40%;
+}
+
+.container5 .block-1 h3 {
+    font-size: 16px;
+    color: #493365;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.container5 .block-1 h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #493365;
+    margin-bottom: 20px;
+  
+}
+
+.flexing {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexing ul {
+    margin: 0;
+    padding: 0;
+}
+
+.flexing li {
+    list-style: none;
+    font-size: 20px;
+    padding: 6px 0;
+
+}
+
+/* Meditation Sessions block */
+.container5 .block-2 {
+    width: 55%;
+}
+
+.container5 .block-2 h4 {
+    font-size: 14px;
+    color: #493365;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.container5 .block-2 h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #493365;
+    margin-bottom: 20px;
+}
+
+.container5 .block-2 p {
+    font-size: 25px;
+    color: #555;
+    line-height: 1.6;
+}
+.container6{
+    background-image: url("../Yoga-app/images/BG3.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+}
+.container6 h3{ 
+    font-style: oblique;
+    font-size: 20px;
+    padding: 4px;
+    padding-top: 100px;
+}
+.container6 h1{ 
+    font-style:italic;
+    font-size: 50px;
+    padding: 4px;
+}
+.container6 P{ 
+  
+    font-size: 35px;
+    padding: 80px;
+}
+
+.container6 H4{ 
+  
+    font-size: 20px;
+    padding: 4px;
+}
+.container6 H2{ 
+  
+    font-size: 25px;
+    color: #F7FFA0;
+    padding: 5px;
+}
+/* ===== Map Section ===== */
+.container-map {
+    display: flex;
+    height: 400px;
+}
+
+.container-map .map {
+    flex: 1;
+}
+
+.container-map .map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.container-map .map-info {
+    flex: 1;
+    padding: 50px;
+    background: #fff;
+}
+
+.container-map .map-info h4 {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #493365;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.container-map .map-info h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #493365;
+}
+
+.container-map .map-info p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* ===== Yoga Pose Gallery ===== */
+.container-gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.container-gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ===== Footer ===== */
+.site-footer {
+    background: #8d67b1;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 14px;
+}
+
+.site-footer .heart {
+    color: red;
+}
